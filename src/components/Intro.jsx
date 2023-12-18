@@ -18,7 +18,7 @@ const Intro = () => {
                 viewport={{ once: false, amount: 0.9 }}
                 className="h1-section1"
               >
-                Experience True Happiness with the Best in Mental Health Care TES123
+                Experience True Happiness with the Best in Mental Health Care
               </motion.div>
             </div>
             <div className="div-kiri-atas-2">
@@ -54,7 +54,7 @@ const Intro = () => {
         >
           <img
             className="div-picture1"
-            src="/src/assets/img/picture1.png"
+            src="/img/picture1.png"
             alt=""
           />
         </motion.div>
