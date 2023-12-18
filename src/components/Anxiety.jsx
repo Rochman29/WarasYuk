@@ -87,7 +87,7 @@ const Anxiety = () => {
           <div className="anxiety-bg">
             <img
               className="gambar2"
-              src="../src/assets/img/meditation3.png"
+              src="/img/meditation3.png"
               alt=""
             />
           </div>
