@@ -1,0 +1,268 @@
+.introBG {
+  height: 150vh;
+  /* background: url("../assets/img/bg.jpg"); */
+  background: linear-gradient(
+    to bottom,
+    rgb(247, 161, 213),
+    rgb(255, 192, 192) 50%,
+    white
+  );
+}
+.aboutBG {
+  height: 90vh;
+  background: linear-gradient(
+    to bottom,
+    white,
+    rgb(255, 132, 132) 50%,
+    rgb(255, 37, 237)
+  );
+}
+.parallaxBG {
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 37, 237),
+    rgb(255, 132, 132) 50%,
+    rgb(255, 37, 237)
+  );
+}
+.meditationBG {
+  height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 37, 237),
+    rgb(255, 116, 243) 50%,
+    white
+  );
+}
+
+.bgNav {
+  background-color: rgb(255, 0, 140);
+}
+.logo-brand {
+  background-image: url("../assets/img/logo.jpeg");
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+.bacaan1 {
+  font-size: 1.4rem;
+  color: black;
+  text-shadow: 2px 2px whitesmoke;
+  font-style: italic;
+  font-weight: bold;
+}
+.bacaan2 {
+  font-size: 1rem;
+  color: black;
+  letter-spacing: 1px;
+}
+.bacaan3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1rem;
+  color: black;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+.nav-element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30px;
+}
+section {
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 60px;
+}
+.section1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.nav-user {
+  height: 40px;
+  width: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+.userPP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  padding-top: 0px;
+}
+.div-picture1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.h1-section1 {
+  font-size: 2.7rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 2px 2px black;
+  color: rgb(255, 0, 140);
+}
+.div-kiri {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
+  height: auto;
+}
+.button-try {
+  color: black;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button-try:hover {
+  background-color: #615151;
+}
+.div-kiri-atas {
+  width: 700px;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  padding-right: 10px;
+  margin-right: 0px;
+  gap: 0px;
+}
+.div-kiri-atas-1 {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  padding-right: 250px;
+}
+.div-kiri-atas-2 {
+  margin-bottom: 50px;
+  padding-right: 250px;
+}
+.div-kiri-atas-3 {
+  margin-bottom: 30px;
+}
+.div-kiri-bawah {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.div-wa,
+.div-email {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding-top: 10px;
+}
+
+.div-logo-wa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 60px;
+  background-image: url("../assets/img/wa.png");
+  background-size: cover;
+}
+.div-logo-email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 50px;
+  background-image: url("../assets/img/email.png");
+  background-size: cover;
+}
+.div-no-wa,
+.div-nama-email {
+  display: flex;
+  padding-left: 10px;
+  padding-top: 0px;
+}
+.a-link-contact {
+  color: black;
+  font-style: italic;
+}
+
+.section2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.div-section2-atas {
+  display: flex;
+  padding-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.div-section2-bawah {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sect2-kanan {
+  display: flex;
+  width: 770px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 0px;
+}
+.sect2-kiri {
+  width: 350px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-picture2 {
+  background-image: url("../assets/img/picture2.png");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.div-section3-bawah {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.cardImage1 {
+  background-image: url("../assets/img/meditation1.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.cardImage2 {
+  background-image: url("../assets/img/meditation2.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.cardImage3 {
+  background-image: url("../assets/img/meditation3.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.div-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 18rem;
+  height: 30rem;
+}

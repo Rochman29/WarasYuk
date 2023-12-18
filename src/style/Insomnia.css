@@ -1,0 +1,36 @@
+.bodyInsomnia {
+  background: url("../assets/img/bg.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.container-meditation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 2.7rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 2px 2px black;
+  color: rgb(255, 0, 140);
+}
+.insomnia-bg {
+  background: url("../assets/img/meditation1.png");
+  background-size: cover;
+  width: 25rem;
+  height: 15rem;
+}
+.tombol-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+}
+.tombol-video {
+  display: inline-flex;
+  height: min-content;
+  justify-content: space-between;
+  gap: 10px;
+}

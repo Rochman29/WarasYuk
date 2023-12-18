@@ -1,0 +1,32 @@
+.bodyAnxiety {
+  background: url("../assets/img/bg.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.container-meditation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 2.7rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 2px 2px black;
+  color: rgb(255, 0, 140);
+}
+.anxiety-bg {
+  /* background: url("../assets/img/meditation2.png"); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+  height: 15rem;
+}
+.gambar2 {
+  width: 350px;
+  padding-top: 10px;
+}

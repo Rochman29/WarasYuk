@@ -1,0 +1,15 @@
+.thanks-body {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.body-img {
+  width: 20rem;
+  justify-content: center;
+  align-items: center;
+  background: url("../assets/img/thankyou-img.png");
+  background-size: contain;
+  height: 15rem;
+}
