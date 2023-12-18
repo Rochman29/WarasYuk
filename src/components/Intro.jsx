@@ -54,7 +54,7 @@ const Intro = () => {
         >
           <img
             className="div-picture1"
-            src="../src/assets/img/picture1.png"
+            src="/src/assets/img/picture1.png"
             alt=""
           />
         </motion.div>
