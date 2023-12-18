@@ -10,9 +10,9 @@ import {
 
 const Footer = () => {
   return (
-    <MDBFooter className="bg-secondary text-center d-flex justify-content-center align-items-center text-black">
+    <MDBFooter className="bg-secondary text-black">
       <MDBContainer className="p-4 pb-0">
-        <section className="mb-4">
+        <section className="mb-4 d-flex justify-content-center align-items-center">
           <MDBBtn
             floating
             className="m-1"
