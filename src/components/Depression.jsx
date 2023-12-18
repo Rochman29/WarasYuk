@@ -94,7 +94,7 @@ const Depression = () => {
           >
             <img
               className="gambar2"
-              src="../src/assets/img/meditation2.png"
+              src="/img/meditation2.png"
               alt=""
             />
           </motion.div>
