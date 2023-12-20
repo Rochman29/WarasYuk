@@ -26,6 +26,7 @@ const Footer = () => {
             floating
             className="m-1"
             style={{ backgroundColor: "#ac2bac" }}
+            href="https://www.instagram.com/warasyuk_?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"
             target="_blank"
             role="button"
           >
