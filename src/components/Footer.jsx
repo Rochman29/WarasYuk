@@ -47,7 +47,8 @@ const Footer = () => {
             floating
             className="m-1"
             style={{ backgroundColor: "#333333" }}
-            href="#!"
+            href="https://github.com/Rochman29/WarasYuk"
+            target="_blank"
             role="button"
           >
             <MDBIcon fab icon="github" />
